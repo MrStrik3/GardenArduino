@@ -1,3 +1,6 @@
+#ifndef ANALOGSENSOR_H
+#define ANALOGSENSOR_H
+
 #include <SensorInfo.h>
 
 class AnalogSensor : public SensorInfo
@@ -10,3 +13,4 @@ class AnalogSensor : public SensorInfo
     protected:
     private:
 };
+#endif // ANALOGSENSOR_H
