@@ -71,3 +71,101 @@
 1427129876 f:\code\gardenarduino-projectbase\soilhumiditysensor.h
 	<AnalogSensor.h>
 
+1427214199 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\analogsensor.cpp
+	"AnalogSensor.h"
+	<Arduino.h>
+
+1427214255 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\analogsensor.h
+	<SensorInfo.h>
+
+1427211025 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\sensorinfo.h
+
+1371033102 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\cores\arduino\arduino.h
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<avr/pgmspace.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"HardwareSerial.h"
+	"pins_arduino.h"
+
+1362986950 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\cores\arduino\binary.h
+
+1362986950 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\cores\arduino\wcharacter.h
+	<ctype.h>
+
+1371033134 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\cores\arduino\wstring.h
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<avr/pgmspace.h>
+
+1362986950 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\cores\arduino\hardwareserial.h
+	<inttypes.h>
+	"Stream.h"
+	"USBAPI.h"
+
+1371032830 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\cores\arduino\stream.h
+	<inttypes.h>
+	"Print.h"
+
+1362986950 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\cores\arduino\print.h
+	<inttypes.h>
+	<stdio.h>
+	"WString.h"
+	"Printable.h"
+
+1362986950 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\cores\arduino\printable.h
+	<new.h>
+
+1362986950 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\cores\arduino\new.h
+	<stdlib.h>
+
+1362986950 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\cores\arduino\usbapi.h
+
+1362986950 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\variants\standard\pins_arduino.h
+	<avr/pgmspace.h>
+
+1427211025 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\sensorinfo.cpp
+	"SensorInfo.h"
+
+1427311744 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\soilhumiditysensor.cpp
+	"SoilHumiditySensor.h"
+	<Arduino.h>
+
+1427211025 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\soilhumiditysensor.h
+	<AnalogSensor.h>
+
+1427311846 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\gardenmanager.ino
+	<Arduino.h>
+	<String.h>
+	<SensorInfo.h>
+	<AnalogSensor.h>
+	<SoilHumiditySensor.h>
+	<Utils.h>
+
+1427214217 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\digitalsensor.cpp
+	"DigitalSensor.h"
+	<Arduino.h>
+
+1427214243 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\digitalsensor.h
+	<SensorInfo.h>
+
+1427213895 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\lightsensor.cpp
+	"LightSensor.h"
+	<Arduino.h>
+
+1427213915 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\lightsensor.h
+	<AnalogSensor.h>
+
+1427310703 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\utils.h
+
+1427310832 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\utils.cpp
+	"Utils.h"
+	<stdlib.h>
+	<String.h>
+

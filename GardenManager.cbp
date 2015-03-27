@@ -653,14 +653,20 @@
 		</Compiler>
 		<Unit filename="AnalogSensor.cpp" />
 		<Unit filename="AnalogSensor.h" />
+		<Unit filename="DigitalSensor.cpp" />
+		<Unit filename="DigitalSensor.h" />
 		<Unit filename="GardenManager.ino">
 			<Option compile="1" />
 			<Option link="1" />
 		</Unit>
+		<Unit filename="LightSensor.cpp" />
+		<Unit filename="LightSensor.h" />
 		<Unit filename="SensorInfo.cpp" />
 		<Unit filename="SensorInfo.h" />
 		<Unit filename="SoilHumiditySensor.cpp" />
 		<Unit filename="SoilHumiditySensor.h" />
+		<Unit filename="Utils.cpp" />
+		<Unit filename="Utils.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -9,7 +9,7 @@ class AnalogSensor : public SensorInfo
         AnalogSensor(char *sensorName, unsigned short pinNo, unsigned short mode);
         void initSensor();
         virtual ~AnalogSensor();
-        virtual unsigned int getValue();
+        unsigned int getValue();
     protected:
     private:
 };
