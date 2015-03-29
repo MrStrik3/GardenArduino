@@ -18,3 +18,7 @@ unsigned int DigitalSensor::getValue() {
     int value = digitalRead(PinNo);
     return value;
 }
+
+void DigitalSensor::setValue(unsigned short value) {
+    digitalWrite(PinNo, value);
+}

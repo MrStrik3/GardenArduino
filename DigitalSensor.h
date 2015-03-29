@@ -3,7 +3,6 @@
 
 #include <SensorInfo.h>
 
-
 class DigitalSensor : public SensorInfo
 {
     public:
@@ -12,6 +11,7 @@ class DigitalSensor : public SensorInfo
         /** Default destructor */
         virtual ~DigitalSensor();
         unsigned int getValue();
+        void setValue(unsigned short value);
     protected:
     private:
 };
