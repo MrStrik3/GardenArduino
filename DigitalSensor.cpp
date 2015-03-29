@@ -14,8 +14,12 @@ DigitalSensor::~DigitalSensor()
     //dtor
 }
 
+void DigitalSensor::initSensor() {
+    pinMode(PinNo, Mode);
+}
+
 unsigned int DigitalSensor::getValue() {
-    int value = digitalRead(PinNo);
+    unsigned int value = digitalRead(PinNo);
     return value;
 }
 

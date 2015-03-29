@@ -10,6 +10,8 @@ class DigitalSensor : public SensorInfo
         DigitalSensor(char *sensorName, unsigned short pinNo, unsigned short mode);
         /** Default destructor */
         virtual ~DigitalSensor();
+
+        void initSensor();
         unsigned int getValue();
         void setValue(unsigned short value);
     protected:
