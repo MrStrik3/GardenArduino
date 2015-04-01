@@ -64,7 +64,7 @@
 1427129876 source:f:\code\gardenarduino-projectbase\sensorinfo.cpp
 	"SensorInfo.h"
 
-1427498447 source:f:\code\gardenarduino-projectbase\soilhumiditysensor.cpp
+1427631998 source:f:\code\gardenarduino-projectbase\soilhumiditysensor.cpp
 	"SoilHumiditySensor.h"
 	<Arduino.h>
 
@@ -169,19 +169,20 @@
 	<stdlib.h>
 	<String.h>
 
-1427498447 source:f:\code\gardenarduino-projectbase\digitalsensor.cpp
+1427632103 source:f:\code\gardenarduino-projectbase\digitalsensor.cpp
 	"DigitalSensor.h"
 	<Arduino.h>
 
-1427630790 f:\code\gardenarduino-projectbase\digitalsensor.h
+1427631090 f:\code\gardenarduino-projectbase\digitalsensor.h
 	<SensorInfo.h>
 
-1427630182 source:f:\code\gardenarduino-projectbase\gardenmanager.ino
+1427633099 source:f:\code\gardenarduino-projectbase\gardenmanager.ino
 	<Arduino.h>
 	<String.h>
 	<SensorInfo.h>
 	<AnalogSensor.h>
 	<SoilHumiditySensor.h>
+	<Relay.h>
 	<Utils.h>
 
 1427498447 f:\code\gardenarduino-projectbase\utils.h
@@ -198,10 +199,10 @@
 	<stdlib.h>
 	<String.h>
 
-1427630629 source:f:\code\gardenarduino-projectbase\relay.cpp
+1427632919 source:f:\code\gardenarduino-projectbase\relay.cpp
 	"Relay.h"
 	<Arduino.h>
 
-1427630603 f:\code\gardenarduino-projectbase\relay.h
+1427632903 f:\code\gardenarduino-projectbase\relay.h
 	<DigitalSensor.h>
 

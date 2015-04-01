@@ -661,6 +661,8 @@
 		</Unit>
 		<Unit filename="LightSensor.cpp" />
 		<Unit filename="LightSensor.h" />
+		<Unit filename="Relay.cpp" />
+		<Unit filename="Relay.h" />
 		<Unit filename="SensorInfo.cpp" />
 		<Unit filename="SensorInfo.h" />
 		<Unit filename="SoilHumiditySensor.cpp" />
