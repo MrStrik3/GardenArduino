@@ -3,6 +3,7 @@
 #include <SensorInfo.h>
 #include <AnalogSensor.h>
 #include <SoilHumiditySensor.h>
+#include <Relay.h>
 #include <Utils.h>
 
 #define DEBUG
@@ -18,8 +19,7 @@
 
 //AnalogSensor *light1 = new AnalogSensor( "Light sensor 1", 2, INPUT);
 SoilHumiditySensor *soilHum1 = new SoilHumiditySensor("Soil humidity sensor 1", 2);
-
-
+Relay *relay1 = new Relay("blabla", 7);
 void setup()
 {
     #ifdef DEBUG
@@ -27,6 +27,7 @@ void setup()
 	#endif
 
     soilHum1->initSensor();
+    relay1->initSensor();
 //	pinMode(lightsensor1.PinNo, lightsensor1.Mode);
 //	pinMode(lightsensor2.PinNo, lightsensor2.Mode);
 //	pinMode(soilsensor1.PinNo, soilsensor1.Mode);
