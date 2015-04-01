@@ -14,8 +14,6 @@ SoilHumiditySensor::~SoilHumiditySensor()
 float SoilHumiditySensor::getSoilHumidity()
 {
     short sensorValue = 1024 - this->getValue();
-    Serial.println(sensorValue);
     float humidity_perc = (float)((sensorValue * 100) / 1024);
-    Serial.println( (int)humidity_perc);
     return humidity_perc;
 }
