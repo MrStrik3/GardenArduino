@@ -7,7 +7,9 @@
 class SoilHumiditySensor : public AnalogSensor
 {
     public:
+        /** Default constructor */
         SoilHumiditySensor(char *sensorName, unsigned short pinNo);
+        /** Default destructor */
         virtual ~SoilHumiditySensor();
         float getSoilHumidity();
     protected:

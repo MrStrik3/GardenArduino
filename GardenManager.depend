@@ -206,3 +206,68 @@
 1427632903 f:\code\gardenarduino-projectbase\relay.h
 	<DigitalSensor.h>
 
+1427980466 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\analogsensor.cpp
+	"AnalogSensor.h"
+	<Arduino.h>
+
+1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\analogsensor.h
+	<SensorInfo.h>
+
+1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\sensorinfo.h
+
+1427902749 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\digitalsensor.cpp
+	"DigitalSensor.h"
+	<Arduino.h>
+
+1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\digitalsensor.h
+	<SensorInfo.h>
+
+1427991437 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\gardenmanager.ino
+	<Arduino.h>
+	<String.h>
+	<SensorInfo.h>
+	<AnalogSensor.h>
+	<SoilHumiditySensor.h>
+	<Relay.h>
+	<Utils.h>
+	<Potentiometer.h>
+
+1427904940 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\soilhumiditysensor.h
+	<AnalogSensor.h>
+
+1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\relay.h
+	<DigitalSensor.h>
+
+1427991709 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\utils.h
+
+1427902749 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\lightsensor.cpp
+	"LightSensor.h"
+	<Arduino.h>
+
+1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\lightsensor.h
+	<AnalogSensor.h>
+
+1427902749 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\relay.cpp
+	"Relay.h"
+	<Arduino.h>
+
+1427902749 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\sensorinfo.cpp
+	"SensorInfo.h"
+
+1427981078 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\soilhumiditysensor.cpp
+	"SoilHumiditySensor.h"
+	<Arduino.h>
+
+1427991753 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\utils.cpp
+	"Utils.h"
+	<stdlib.h>
+	<String.h>
+
+1427989305 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\potentiometer.cpp
+	"Potentiometer.h"
+	<AnalogSensor.h>
+	<Arduino.h>
+
+1427905194 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\potentiometer.h
+	<AnalogSensor.h>
+

@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <String.h>
 
+
+char* Utils::monthName[12] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+
 Utils::Utils()
 {
     //ctor
@@ -22,4 +25,13 @@ char* Utils::ftoa( char* a, const float f, const int precision /* 0-8 */ )
         strcat( a, "0" );
       strcat( a, buffer );
       return ret;
+}
+
+unsigned short Utils::getMonthNumber(const char* monthAbr) {
+    short monthIndex;
+    for (monthIndex = 0; monthIndex < 12; monthIndex++) {
+        if (strcmp(monthAbr, monthName[monthIndex]) == 0) break;
+    }
+
+    return monthIndex + 1;
 }

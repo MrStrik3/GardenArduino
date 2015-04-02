@@ -14,6 +14,8 @@ AnalogSensor::~AnalogSensor()
 }
 
 unsigned int AnalogSensor::getValue() {
+
+    //TODO double read
     int value = analogRead(PinNo);
     return value;
 }
