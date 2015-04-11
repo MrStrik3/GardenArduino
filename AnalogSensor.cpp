@@ -13,13 +13,15 @@ AnalogSensor::~AnalogSensor()
     //dtor
 }
 
+void AnalogSensor::initSensor() {
+    pinMode(PinNo, Mode);
+}
+
 unsigned int AnalogSensor::getValue() {
 
-    //TODO double read
+    analogRead(PinNo);
     int value = analogRead(PinNo);
     return value;
 }
 
-void AnalogSensor::initSensor() {
-    pinMode(PinNo, Mode);
-}
+
