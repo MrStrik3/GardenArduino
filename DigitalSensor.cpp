@@ -19,6 +19,7 @@ void DigitalSensor::initSensor() {
 }
 
 unsigned int DigitalSensor::getValue() {
+    digitalRead(PinNo);
     unsigned int value = digitalRead(PinNo);
     return value;
 }

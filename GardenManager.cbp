@@ -653,6 +653,9 @@
 		</Compiler>
 		<Unit filename="AnalogSensor.cpp" />
 		<Unit filename="AnalogSensor.h" />
+		<Unit filename="Clock.cpp" />
+		<Unit filename="Clock.h" />
+		<Unit filename="DebugMode.h" />
 		<Unit filename="DigitalSensor.cpp" />
 		<Unit filename="DigitalSensor.h" />
 		<Unit filename="GardenManager.ino">
@@ -671,6 +674,10 @@
 		<Unit filename="SoilHumiditySensor.h" />
 		<Unit filename="Utils.cpp" />
 		<Unit filename="Utils.h" />
+		<Unit filename="extlib/DS1307RTC.cpp" />
+		<Unit filename="extlib/DS1307RTC.h" />
+		<Unit filename="extlib/Time.cpp" />
+		<Unit filename="extlib/Time.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

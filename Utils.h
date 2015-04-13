@@ -1,7 +1,9 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-
+/**
+ * This object contains utility functions
+ */
 class Utils
 {
     public:
