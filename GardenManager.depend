@@ -1,84 +1,12 @@
 # depslib dependency file v1.0
-1428710610 source:f:\code\gardenarduino-projectbase\analogsensor.cpp
+1428939475 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\analogsensor.cpp
 	"AnalogSensor.h"
 	<Arduino.h>
 
-1427498447 f:\code\gardenarduino-projectbase\analogsensor.h
+1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\analogsensor.h
 	<SensorInfo.h>
 
-1427129876 f:\code\gardenarduino-projectbase\sensorinfo.h
-
-1371033102 f:\codeblocks\arduino\hardware\arduino\cores\arduino\arduino.h
-	<stdlib.h>
-	<string.h>
-	<math.h>
-	<avr/pgmspace.h>
-	<avr/io.h>
-	<avr/interrupt.h>
-	"binary.h"
-	"WCharacter.h"
-	"WString.h"
-	"HardwareSerial.h"
-	"pins_arduino.h"
-
-1362986950 f:\codeblocks\arduino\hardware\arduino\cores\arduino\binary.h
-
-1362986950 f:\codeblocks\arduino\hardware\arduino\cores\arduino\wcharacter.h
-	<ctype.h>
-
-1371033134 f:\codeblocks\arduino\hardware\arduino\cores\arduino\wstring.h
-	<stdlib.h>
-	<string.h>
-	<ctype.h>
-	<avr/pgmspace.h>
-
-1362986950 f:\codeblocks\arduino\hardware\arduino\cores\arduino\hardwareserial.h
-	<inttypes.h>
-	"Stream.h"
-	"USBAPI.h"
-
-1371032830 f:\codeblocks\arduino\hardware\arduino\cores\arduino\stream.h
-	<inttypes.h>
-	"Print.h"
-
-1362986950 f:\codeblocks\arduino\hardware\arduino\cores\arduino\print.h
-	<inttypes.h>
-	<stdio.h>
-	"WString.h"
-	"Printable.h"
-
-1362986950 f:\codeblocks\arduino\hardware\arduino\cores\arduino\printable.h
-	<new.h>
-
-1362986950 f:\codeblocks\arduino\hardware\arduino\cores\arduino\new.h
-	<stdlib.h>
-
-1362986950 f:\codeblocks\arduino\hardware\arduino\cores\arduino\usbapi.h
-
-1362986950 f:\codeblocks\arduino\hardware\arduino\variants\standard\pins_arduino.h
-	<avr/pgmspace.h>
-
-1427129876 source:f:\code\gardenarduino-projectbase\analogsensor.h
-	<SensorInfo.h>
-
-1427129876 source:f:\code\gardenarduino-projectbase\sensorinfo.cpp
-	"SensorInfo.h"
-
-1428011157 source:f:\code\gardenarduino-projectbase\soilhumiditysensor.cpp
-	"SoilHumiditySensor.h"
-	<Arduino.h>
-
-1428011157 f:\code\gardenarduino-projectbase\soilhumiditysensor.h
-	<AnalogSensor.h>
-
-1427214199 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\analogsensor.cpp
-	"AnalogSensor.h"
-	<Arduino.h>
-
-1427214255 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\analogsensor.h
-	<SensorInfo.h>
-
-1427211025 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\sensorinfo.h
+1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\sensorinfo.h
 
 1371033102 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\cores\arduino\arduino.h
 	<stdlib.h>
@@ -130,53 +58,91 @@
 1362986950 c:\users\lefrancoisc\desktop\travail\apps\codeblocks-20140626\arduino\hardware\arduino\variants\standard\pins_arduino.h
 	<avr/pgmspace.h>
 
-1427211025 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\sensorinfo.cpp
-	"SensorInfo.h"
-
-1427311744 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\soilhumiditysensor.cpp
-	"SoilHumiditySensor.h"
+1428944885 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\clock.cpp
+	"Clock.h"
+	<extlib/DS1307RTC.h>
+	<extlib/Time.h>
+	<stdio.h>
+	<Wire.h>
+	<DebugMode.h>
 	<Arduino.h>
 
-1427211025 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\soilhumiditysensor.h
-	<AnalogSensor.h>
+1428941709 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\clock.h
 
-1427311846 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\gardenmanager.ino
-	<Arduino.h>
-	<String.h>
-	<SensorInfo.h>
-	<AnalogSensor.h>
-	<SoilHumiditySensor.h>
-	<Utils.h>
+1428939475 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\extlib\ds1307rtc.h
+	"extlib/Time.h"
 
-1427214217 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\digitalsensor.cpp
+1428939475 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\extlib\time.h
+	<inttypes.h>
+	<sys/types.h>
+
+1428939475 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\debugmode.h
+
+1428939475 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\digitalsensor.cpp
 	"DigitalSensor.h"
 	<Arduino.h>
 
-1427214243 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\digitalsensor.h
+1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\digitalsensor.h
 	<SensorInfo.h>
 
-1427213895 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\lightsensor.cpp
+1428939475 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\extlib\ds1307rtc.cpp
+	<Wire.h>
+	"DS1307RTC.h"
+
+1369232261 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\extlib\lowpower.cpp
+	<avr/sleep.h>
+	<avr/wdt.h>
+	<avr/power.h>
+	<avr/interrupt.h>
+	"LowPower.h"
+
+1369232261 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\extlib\lowpower.h
+
+1428939475 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\extlib\time.cpp
+	<Arduino.h>
+	<WProgram.h>
+	"Time.h"
+
+1427902749 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\lightsensor.cpp
 	"LightSensor.h"
 	<Arduino.h>
 
-1427213915 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\lightsensor.h
+1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\lightsensor.h
 	<AnalogSensor.h>
 
-1427310703 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\utils.h
+1427989305 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\potentiometer.cpp
+	"Potentiometer.h"
+	<AnalogSensor.h>
+	<Arduino.h>
 
-1427310832 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino\utils.cpp
+1427905194 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\potentiometer.h
+	<AnalogSensor.h>
+
+1427902749 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\relay.cpp
+	"Relay.h"
+	<Arduino.h>
+
+1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\relay.h
+	<DigitalSensor.h>
+
+1427902749 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\sensorinfo.cpp
+	"SensorInfo.h"
+
+1427981078 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\soilhumiditysensor.cpp
+	"SoilHumiditySensor.h"
+	<Arduino.h>
+
+1427904940 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\soilhumiditysensor.h
+	<AnalogSensor.h>
+
+1427991753 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\utils.cpp
 	"Utils.h"
 	<stdlib.h>
 	<String.h>
 
-1428710686 source:f:\code\gardenarduino-projectbase\digitalsensor.cpp
-	"DigitalSensor.h"
-	<Arduino.h>
+1428939475 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\utils.h
 
-1427631090 f:\code\gardenarduino-projectbase\digitalsensor.h
-	<SensorInfo.h>
-
-1428859854 source:f:\code\gardenarduino-projectbase\gardenmanager.ino
+1428943844 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\gardenmanager.ino
 	<Arduino.h>
 	<String.h>
 	<SensorInfo.h>
@@ -187,127 +153,5 @@
 	<Potentiometer.h>
 	<DebugMode.h>
 	<Clock.h>
-
-1428711434 f:\code\gardenarduino-projectbase\utils.h
-
-1427498447 source:f:\code\gardenarduino-projectbase\lightsensor.cpp
-	"LightSensor.h"
-	<Arduino.h>
-
-1427498447 f:\code\gardenarduino-projectbase\lightsensor.h
-	<AnalogSensor.h>
-
-1428011157 source:f:\code\gardenarduino-projectbase\utils.cpp
-	"Utils.h"
-	<stdlib.h>
-	<String.h>
-
-1427633792 source:f:\code\gardenarduino-projectbase\relay.cpp
-	"Relay.h"
-	<Arduino.h>
-
-1427632903 f:\code\gardenarduino-projectbase\relay.h
-	<DigitalSensor.h>
-
-1427980466 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\analogsensor.cpp
-	"AnalogSensor.h"
-	<Arduino.h>
-
-1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\analogsensor.h
-	<SensorInfo.h>
-
-1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\sensorinfo.h
-
-1427902749 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\digitalsensor.cpp
-	"DigitalSensor.h"
-	<Arduino.h>
-
-1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\digitalsensor.h
-	<SensorInfo.h>
-
-1427991437 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\gardenmanager.ino
-	<Arduino.h>
-	<String.h>
-	<SensorInfo.h>
-	<AnalogSensor.h>
-	<SoilHumiditySensor.h>
-	<Relay.h>
-	<Utils.h>
-	<Potentiometer.h>
-
-1427904940 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\soilhumiditysensor.h
-	<AnalogSensor.h>
-
-1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\relay.h
-	<DigitalSensor.h>
-
-1427991709 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\utils.h
-
-1427902749 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\lightsensor.cpp
-	"LightSensor.h"
-	<Arduino.h>
-
-1427902749 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\lightsensor.h
-	<AnalogSensor.h>
-
-1427902749 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\relay.cpp
-	"Relay.h"
-	<Arduino.h>
-
-1427902749 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\sensorinfo.cpp
-	"SensorInfo.h"
-
-1427981078 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\soilhumiditysensor.cpp
-	"SoilHumiditySensor.h"
-	<Arduino.h>
-
-1427991753 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\utils.cpp
-	"Utils.h"
-	<stdlib.h>
-	<String.h>
-
-1427989305 source:c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\potentiometer.cpp
-	"Potentiometer.h"
-	<AnalogSensor.h>
-	<Arduino.h>
-
-1427905194 c:\users\lefrancoisc\desktop\travail\codesource\arduinocodesource\gardenarduino-projectbase\potentiometer.h
-	<AnalogSensor.h>
-
-1428011157 source:f:\code\gardenarduino-projectbase\potentiometer.cpp
-	"Potentiometer.h"
-	<AnalogSensor.h>
-	<Arduino.h>
-
-1428011157 f:\code\gardenarduino-projectbase\potentiometer.h
-	<AnalogSensor.h>
-
-1428802978 source:f:\code\gardenarduino-projectbase\clock.cpp
-	"Clock.h"
-	<extlib/DS1307RTC.h>
-	<extlib/Time.h>
-	<stdio.h>
-	<Wire.h>
-	<DebugMode.h>
-	<Arduino.h>
-
-1428802697 f:\code\gardenarduino-projectbase\clock.h
-
-1428801170 f:\code\gardenarduino-projectbase\extlib\ds1307rtc.h
-	"extlib/Time.h"
-
-1428011157 f:\code\gardenarduino-projectbase\extlib\time.h
-	<inttypes.h>
-	<sys/types.h>
-
-1428800403 f:\code\gardenarduino-projectbase\debugmode.h
-
-1428011157 source:f:\code\gardenarduino-projectbase\extlib\ds1307rtc.cpp
-	<Wire.h>
-	"DS1307RTC.h"
-
-1428011157 source:f:\code\gardenarduino-projectbase\extlib\time.cpp
-	<Arduino.h>
-	<WProgram.h>
-	"Time.h"
+	<extlib/LowPower.h>
 

@@ -676,6 +676,8 @@
 		<Unit filename="Utils.h" />
 		<Unit filename="extlib/DS1307RTC.cpp" />
 		<Unit filename="extlib/DS1307RTC.h" />
+		<Unit filename="extlib/LowPower.cpp" />
+		<Unit filename="extlib/LowPower.h" />
 		<Unit filename="extlib/Time.cpp" />
 		<Unit filename="extlib/Time.h" />
 		<Extensions>

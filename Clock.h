@@ -9,12 +9,12 @@ class Clock
         /** Default destructor */
         virtual ~Clock();
 
-        static void setTime(unsigned int year,
-                            unsigned int month,
-                            unsigned int day,
-                            unsigned int hour,
-                            unsigned int minute,
-                            unsigned int second);
+        static void setTime(unsigned short year,
+                            unsigned short month,
+                            unsigned short day,
+                            unsigned short hour,
+                            unsigned short minute,
+                            unsigned short second);
         static void printTime();
     protected:
     private:

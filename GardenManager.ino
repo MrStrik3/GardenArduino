@@ -8,9 +8,10 @@
 #include <Potentiometer.h>
 #include <DebugMode.h>
 #include <Clock.h>
+#include <extlib/LowPower.h>
 
 #define DEBUG
-#define SETTIME
+// #define SETTIME
 #define ANALOG      0
 #define DIGITAL     1
 
@@ -23,16 +24,17 @@ void setup()
 	#endif
 
     #ifdef SETTIME
-    unsigned int second, minute, hour, year, month, day;
+    unsigned short second, minute, hour, year, month, day;
     char month_str[12];
 
     sscanf(__TIME__,"%d:%d:%d", &hour, &minute, &second);
     sscanf(__DATE__,"%s %d %d", month_str, &day, &year);
 
     month = Utils::getMonthNumber(month_str);
+
     delay(5000);
     char output[50];
-    sprintf(output, "%0d-%s(%0d)-%0d %0d:%0d:%0d", year, month_str, month, day, hour, minute, second);
+    sprintf(output, "before set --> %0d-%s(%0d)-%0d %0d:%0d:%0d", year, month_str, month, day, hour, minute, second);
     Serial.println(output);
 
     Clock::setTime(year, month, day, hour, minute, second);
@@ -43,8 +45,9 @@ void setup()
 
 void loop()
 {
-	delay(2000);
-    Serial.println("PATATEAT");
+    delay(5111);
+	//LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);
+
     Clock::printTime();
 
 //    Utils::ftoa(tmp, value2, 3);
